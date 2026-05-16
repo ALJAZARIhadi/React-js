@@ -1,3 +1,4 @@
+import "../FirstComponentStyle.css";
 export default function MyFirstComponent() {
   const Person = {
     name:"Abdulhadi",
@@ -11,7 +12,10 @@ export default function MyFirstComponent() {
   return (
     <div>
       <h1 style={elmStyle}>Welcome {Person.name} component</h1>
-      <p>Email: {Person.email}</p>
+      <p className=" whiteBg active">Email: {Person.email}</p>
+
+      <h1 className={Person.name === "Abdulhadi" ? "greenBg" : "redBg"}>Welcome {Person.name} component </h1>
+      
       <button onClick={sayHello}>Hi</button>
     </div>
   );
