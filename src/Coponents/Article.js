@@ -1,4 +1,10 @@
-export default function Article({ PersoName, email, age, Content="No Content" }) {
+export default function Article({
+  PersonName,
+  email,
+  age,
+  Content = "No Content",
+  children,
+}) {
   return (
     <>
       {/* This means <div><div/> */}
@@ -10,12 +16,12 @@ export default function Article({ PersoName, email, age, Content="No Content" })
           marginBottom: "10px",
         }}
       >
-        <h1>{PersoName}</h1>
+        <h1>{PersonName}</h1>
         <h2>{email}</h2>
         <h3>{age}</h3>
 
         <hr></hr>
-        <p>{Content}</p>
+        <p>{children}</p>
       </div>
     </>
   );

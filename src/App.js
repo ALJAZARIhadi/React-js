@@ -19,17 +19,27 @@ function App() {
         <h1>Khawarezmi Academy</h1>
         <Article
           Content={fitsArticle}
-          personName="Ahmed"
+          PersonName="Ahmed"
           email="ahmed@gmail.com"
           age="20"
-        />
+        >
+          <h1>Hello World</h1>
+        </Article>
         <Article
           Content={secondArticle}
-          personName="Hadi"
+          PersonName="Hadi"
           email="hadi@gmail.com"
           age="25"
-        />
-        <Article personName="Omer" email="omer@gmail.com" age="24" />
+        >
+          <div style={{ background: "teal" }}>
+            <h1>Hello World</h1>
+            <p>ijkjg jdkj kj lkdjf</p>
+          </div>
+        </Article>
+        <Article PersonName ="Omer" email="omer@gmail.com" age="24">
+          <h5>This is content by jsx sent</h5>
+          <hr></hr>
+        </Article>
 
         <a
           className="App-link"
