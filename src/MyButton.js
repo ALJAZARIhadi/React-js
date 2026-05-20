@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-
+// Note i didnt import this component in App.js
 export default function MyButton()
 {
     console.log("render");
