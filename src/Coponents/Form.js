@@ -11,7 +11,7 @@ export default function Form() {
     isEmployee: false,
     salary: "",
   });
-  
+   
   // جعلنا القيمة الابتدائية نص فارغ لتسهيل التحكم بها
   const [error , setError] = useState(""); 
   const [showModel , setShowModel] = useState(false)
