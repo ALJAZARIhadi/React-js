@@ -33,7 +33,7 @@ function App() {
         >
           <div style={{ background: "teal" }}>
             <h1>Hello World</h1>
-            <p>ijkjg jdkj kj lkdjf</p>
+            <p>ijkjg jdkj kj l  kdjf</p>
           </div>
         </Article>
         <Article PersonName ="Omer" email="omer@gmail.com" age="24">
