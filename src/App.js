@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
+ import logo from "./logo.svg";
 import "./App.css";
 //import MyFirstComponent from "./Coponents/MyFirstComponent"
 import Article from "./Coponents/Article";
 function App() {
   const fitsArticle = `
   sdfdkfj
-  dkjsljkfjdfsdkflj`;
+  dkjsljkfjdfscvcve fw ew  fdkflj`;      
   const secondArticle = `sdfkdl  
   sdflkjldskj 
   kjdflkjkj`;
