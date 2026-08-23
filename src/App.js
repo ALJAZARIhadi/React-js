@@ -1,6 +1,7 @@
  import logo from "./logo.svg";
 import "./App.css";
 //import MyFirstComponent from "./Coponents/MyFirstComponent"
+//You can use context in the App.js file and this is the most used way when you need to access user data or even to apply a theme just like ThemeContext 
 import Article from "./Coponents/Article";
 function App() {
   const fitsArticle = `
